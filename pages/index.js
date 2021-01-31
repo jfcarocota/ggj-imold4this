@@ -29,7 +29,7 @@ export default class Home extends Component {
           label={{ basic: true, color: 'red', pointing: 'left', content: 'Version 0.0.4' }}
           onClick={()=> window.open('https://github.com/jfcarocota/im-old-4-this/releases/tag/0.0.4')}
         />
-        
+
         <Button
           color='purple'
           content='GGJ Page'
@@ -40,9 +40,9 @@ export default class Home extends Component {
         <Header as='h3' icon textAlign='center' style={{color: 'white'}}>
           <Header.Content>Game screens</Header.Content>
         </Header>
-        <Image src='/img2.png' fluid />
+        <Image src='/img2.PNG' fluid />
         <Divider hidden/>
-        <Image src='/img3.png' fluid />
+        <Image src='/img3.PNG' fluid />
         <Header as='h3' icon textAlign='center' style={{color: 'white'}}>
           <Header.Content>The game engine</Header.Content>
         </Header>
