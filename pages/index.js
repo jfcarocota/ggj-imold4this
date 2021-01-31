@@ -29,6 +29,7 @@ export default class Home extends Component {
           label={{ basic: true, color: 'red', pointing: 'left', content: 'Version 0.0.4' }}
           onClick={()=> window.open('https://github.com/jfcarocota/im-old-4-this/releases/tag/0.0.4')}
         />
+        
         <Button
           color='purple'
           content='GGJ Page'
